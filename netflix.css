@@ -90,6 +90,11 @@ nav .flex button{
     border: 2px solid white;
     border-radius: 4px;
     font-size: 14px;
+    display: flex;
+    gap: 10px;
+}
+.btn svg{
+    margin-top: 4px;
 }
 .redbtn{
     background-color: red;
@@ -98,6 +103,8 @@ nav .flex button{
     padding: 4px 22px;
     font-size: 14px;
     border-radius: 7px;
+    display: flex;
+    gap: 10px;
 }
 .content button{
     font-size: 17px;
@@ -106,4 +113,38 @@ nav .flex button{
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+.redbtn svg{
+   margin-top: 5px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 45px;
+}
+.sec-img{
+    position: relative;
+}
+.sec-img img{
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+}
+.sec-img video{
+    width: 23vw;
+    position: absolute;
+    top: 51px;
+    right: 50px;
+    
+}
+.test h1{
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: 'Martel Sans', sans-serif;
+    
 }
