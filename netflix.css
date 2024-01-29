@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    
+}
+.main{
+    background-image: url("assets/netassest.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 73px;
+    
+}
+nav img{
+    color: red;
+    width: 100px;
+    z-index: 10;
+    position: relative;
+
+}
+nav .flex{
+    display: flex;
+    gap: 20px;
+}
+nav .flex button{
+    z-index: 10;
+    position: relative;
+    
+}
+.content{
+    height: calc(100% - 73px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 30px;
+    text-align: center;
+}
+.content> :first-child{
+    font-weight: bolder;
+    font-size: 38px;
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+}
+.content input{
+    padding: 7px 101px 7px 14px;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: rgb(0 0 0 / 60%);
+    font-weight: bold;
+    color: white;
+}
+.seprate{
+    background-color: darkgray;
+    height: 5px;
+}
+.btn{
+    padding: 4px 22px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.redbtn{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    padding: 4px 22px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+.content button{
+    font-size: 17px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
