@@ -125,7 +125,7 @@ nav .flex button{
     color: white;
     align-items: center;
     gap: 30px;
-    padding-bottom: 45px;
+    padding: 45px;
 }
 .sec-img{
     position: relative;
@@ -147,4 +147,48 @@ nav .flex button{
     font-size: 28px;
     font-family: 'Martel Sans', sans-serif;
     
+}
+.faq{
+    background-color: black;
+    color: #ffff;
+    padding: 45px;
+}
+.faq h2{
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+   
+}
+.faqbox{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 70vw;
+    font-weight: bold;
+}
+.subs{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:#ffff;
+    font-weight: bold;
+    text-align: center;
+}
+.inpsub{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+}
+.inpsub input{
+    padding: 7px 101px 7px 14px;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: rgb(0 0 0 / 60%);
+    font-weight: bold;
+    color: white;
 }
