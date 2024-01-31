@@ -14,11 +14,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: max(1200px,100vw);
-    height: 100vh;
+    height: 85vh;
     position: relative;
 }
 .main .box{
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     position: absolute;
     top: 0;
@@ -28,7 +28,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    max-width: 60vw;
+    max-width: 75vw;
     margin: auto;
     justify-content: space-between;
     height: 73px;
@@ -79,17 +79,17 @@ nav .flex button{
     color: white;
 }
 .seprate{
-    background-color: darkgray;
+    background-color: rgb(73, 73, 73);
     height: 5px;
 }
 .btn{
-    padding: 4px 22px;
+    padding: 3px 18px;
     font-weight: bold;
     color: white;
     background-color: transparent;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     gap: 10px;
 }
@@ -101,7 +101,7 @@ nav .flex button{
     font-weight: bold;
     color: white;
     padding: 4px 22px;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 7px;
     display: flex;
     gap: 10px;
@@ -168,6 +168,11 @@ nav .flex button{
     margin: 15px auto;
     max-width: 70vw;
     font-weight: bold;
+    cursor: pointer;
+}
+.faqbox:hover{
+    transition: all 1s;
+    background-color: rgb(98, 98, 98);
 }
 .subs{
     padding: 20px;
@@ -191,4 +196,12 @@ nav .flex button{
     background-color: rgb(0 0 0 / 60%);
     font-weight: bold;
     color: white;
+}
+.inpsub button{
+    font-size: 17px;
+}
+
+fotter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
